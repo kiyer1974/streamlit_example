@@ -6,7 +6,7 @@ st.title("Calculator App")
 st.write("This app connects to a FastAPI calculator service.")
 
 
-api_url = "https://f-calculator.onrender.com/"
+api_url = "https://f-calculator.onrender.com"
 # now we are using fastapi url
 
 
