@@ -5,10 +5,9 @@ import json
 st.title("Calculator App")
 st.write("This app connects to a FastAPI calculator service.")
 
-
-api_url = "https://f-calculator.onrender.com"
+#api_url = "https://f-calculator.onrender.com/"
+api_url = st.secrets.api_url
 # now we are using fastapi url
-
 
 # Initialize session state to store the calculator display and current operation
 if 'display' not in st.session_state:
